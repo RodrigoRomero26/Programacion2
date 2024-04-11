@@ -3,7 +3,7 @@ package Ejercicio2;
 public class Mago extends PersonajeBase{
     private int mana;
 
-    public Mago(int level, char name, int health, int mana) {
+    public Mago(int level, String name, int health, int mana) {
         super(level, name, health);
         this.mana = mana;
     }

@@ -3,7 +3,7 @@ package Ejercicio2;
 public class Guerrero extends PersonajeBase {
     private boolean shield;
 
-    public Guerrero(int level, char name, int health, boolean shield) {
+    public Guerrero(int level, String name, int health, boolean shield) {
         super(level, name, health);
         this.shield = shield;
     }
